@@ -17,7 +17,7 @@ public class TaskOne {
         System.out.println(arrList);
         maxValue(arrList);
         minValue(arrList);
-        AvarageValue(arrList);
+        AverageValue(arrList);
         System.out.println(deleteEvenNumb(arrList));
 
     }
@@ -47,12 +47,12 @@ public class TaskOne {
         }
         System.out.println("Minimal value is: " + min);
     }
-    private static void AvarageValue(List<Integer> arrList){
+    private static void AverageValue(List<Integer> arrList){
         double avrg = 0;
         for ( int num: arrList ) {
             avrg += num;
         }
-        System.out.println("Avarage value is: " + (avrg / arrList.size()));
+        System.out.println("Average value is: " + (avrg / arrList.size()));
     }
     private static List<Integer> deleteEvenNumb(List<Integer> arrList){
         for (int i = 0; i < arrList.size(); i++) {
